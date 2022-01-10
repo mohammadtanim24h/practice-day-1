@@ -1,0 +1,73 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.fa-facebook-square {
+    color: #166FE5;
+    font-size: 120%;
+}
+
+.fa-youtube {
+    color: #FF0000;
+    font-size: 120%;
+}
+
+.box {
+    width: 800px;
+    height: 400px;
+    background-color: antiquewhite;
+    border: 2px solid gray;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    animation: ball-moving 5s ease 1s infinite alternate;
+}
+
+@keyframes ball-moving {
+    0% {left: 0; top: 0; transform: scale(0.10);}
+    25% {left: 750px;top: 350px; right: 0; transform: scale(0.25);}
+    50% {left: 750px; top: 0; right: 0; transform: scale(0.50);}
+    75% {left: 0; top: 350px; right: 750px; transform: scale(0.75);}
+    100% {left: 0; top: 0; transform: scale(1);}
+}
+
+.style {
+    height: 350px;
+    width: 50%;
+    background-color: rgb(226, 221, 216);
+    color: black;
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.style p {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.style p::first-letter {
+    font-size: 40px;
+    color: saddlebrown;
+}
+
+.style p::first-line {
+    text-transform: uppercase;
+}
+
+.txt-style {
+    color: brown;
+}
