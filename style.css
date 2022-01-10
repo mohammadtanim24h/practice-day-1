@@ -71,3 +71,8 @@ table, th, td {
 .txt-style {
     color: brown;
 }
+
+.motivational-img {
+    width: 50vw;
+    height: auto;
+}
